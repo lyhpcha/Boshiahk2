@@ -1,4 +1,4 @@
-# BoshiahkGV - 嘸蝦殼 GDI+ Version。
+# Boshiahk2 - 嘸蝦殼 V2
 免安裝的嘸蝦米輸入工具，以 AutoHotkey V2 製作。  
 本程式會攔截鍵盤事件，所以會被某些掃毒軟體誤判，附上掃毒結果給大家參考：  
 [32位元執行檔](https://www.virustotal.com/gui/file/93f3fd30a75d9dc6a156ab6885fe6fa3c7522234d7c73c953204124a9722a57f)
