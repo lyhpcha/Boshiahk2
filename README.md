@@ -6,7 +6,7 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
-### 2021-09-12 初版發佈
+### 2021-09-15 初版發佈
 
 # 輸入畫面範例
 ![image](https://github.com/yurenli0217/Temp/blob/main/Example_v2.png?raw=true)  
