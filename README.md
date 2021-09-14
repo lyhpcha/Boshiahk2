@@ -10,7 +10,7 @@
 - 目前提供基本的輸入功能，查碼功能尚未加入。
 
 # 輸入畫面範例
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_V2_WIP.png?raw=true)  
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_V2.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
@@ -22,16 +22,17 @@
 - 若是有多個螢幕時，輸入介面會自動移到焦點視窗所在的螢幕，介面會顯示在一樣的相對位置。
 
 ## 輸入法介面開啟時，熱鍵與對應的功能
-- 對輸入介面右鍵，可以結束程式。
-- Ctrl-Alt-X 離開程式。
-- Ctrl-Alt-R 重新載入程式。
-- Ctrl-Alt-L 切換送字後是否顯示拆碼。
 - Ctrl-Space 輸入法開啟/關閉。
+- Ctrl-Alt-R 重新載入程式。
+- Ctrl-Alt-C 查看上一次送字之拆碼
+- Ctrl-Alt-G 重複上一次送出的字。
+- Ctrl-Alt-P 進入注音模式。
 - Shift-Space 半形/全形 輸入。
 - Shift+,. 在多頁選字時，切換上下頁。
 - Pgup/Pgdn 在多頁選字時，切換上下頁。
 - Ctrl-Alt-Shift-C 查詢焦點視窗的 Class Name。
 - Ctrl-Alt-Shift-T 查詢焦點視窗的視窗標題。
+- 對輸入介面按右鍵，可以結束程式。
 
 ## 修改 Boshiahk2.ini 簡易說明
 - 設定檔中已有針對各項設定值簡述用法。
@@ -46,13 +47,13 @@
 
 如果想要符合的是 Class Name，每一行用*開頭，後面接 Class Name，如  
 `*Notepad`  
-只要 Class Name 為 Notepad 的都會自動用剪貼簿貼上或是停用游標跟隨。  
+只要 Class Name 為 Notepad 的都會自動用剪貼簿貼上。  
 
 如果想要符合的是視窗標題，每一行直接輸入視窗標題包含的字串，如  
 `批踢踢實業坊`  
-視窗標題只要包含此字串，就會自動以剪貼簿送字或是停用游標跟隨。  
+視窗標題只要包含此字串，就會自動以剪貼簿送字。  
 視窗標題也可以支援正規表示法比對字串，這是比較進階的用法，有興趣的可以試試。  
-視窗標題比對時的英文大小寫視為一樣。
+視窗標題比對時的英文文字不分大小寫。
 
 # 系統輸入法和語系設定
 嘸蝦殼輸入介面的運作屬外掛方式輸入中文，若要正常運作，系統內建的輸入法要先進行設定。  
