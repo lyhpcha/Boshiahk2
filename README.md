@@ -10,7 +10,7 @@
 - 目前提供基本的輸入功能，查碼功能尚未加入。
 
 # 輸入畫面範例
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_V2.png?raw=true)  
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_v2.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
