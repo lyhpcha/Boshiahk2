@@ -7,7 +7,6 @@
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
 ### 2021-09-12 初版發佈
-- 目前提供基本的輸入功能，查碼功能尚未加入。
 
 # 輸入畫面範例
 ![image](https://github.com/yurenli0217/Temp/blob/main/Example_v2.png?raw=true)  
