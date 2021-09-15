@@ -9,7 +9,7 @@
 ### 2021-09-15 初版發佈
 
 # 輸入畫面範例
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_v2.png?raw=true)  
+![image](https://github.com/yurenli0217/Temp/blob/main/ExampleV2.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
