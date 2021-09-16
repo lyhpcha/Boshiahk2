@@ -6,6 +6,10 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-09-16
+- 程式碼整理，移除無用程式碼
+- 修正: 輸入列寬度計算有時會錯誤的問題。
+
 ### 2021-09-15 初版發佈
 
 # 輸入畫面範例
@@ -35,7 +39,7 @@
 
 ## 修改 Boshiahk2.ini 簡易說明
 - 設定檔中已有針對各項設定值簡述用法。
-- 設定檔分成 `[Settings]`、`[Table]`、`[Cmd]` 三個區段，請留意不要刪除。
+- 設定檔分成 `[Settings]`、`[Table]`、`[CmdKey]` 三個區段，請留意不要刪除。
 - 使用程式前可先詳細參閱 INI 檔內說明。
 ### ※注意※ 如果 boshiahk2.ini 文字編碼格式不是 UTF-16LE，程式將無法正常讀取設定，用記事本開啟另存成 UTF16-LE 即可。這是 Windows 本身的限制。
 
