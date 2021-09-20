@@ -6,6 +6,10 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-09-20
+- INI新增: [Settings] StartHidden、BorderStyle 兩個設定值。
+- 修正程式內小誤錯。
+
 ### 更新 2021-09-16
 - 程式碼整理，移除無用程式碼
 - 修正: 輸入列寬度計算有時會錯誤的問題。
