@@ -6,6 +6,14 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新
+- 增加一個設定值`EnSwitch2`，設定另一個中英切換的按鍵。
+- 加入 GDI+ 顯示設定，設定方面請參閱 INI 檔中的設定值說明。
+此版本中，我從 V1 版的 GDI+ 函式庫移植了少許文字相關的繪圖函式到此版本。  
+介面呈現出來的是類似於OSD的效果(沒有背景色)，我自己在 V1 版中都是設定成這樣的外觀使用的。  
+有興趣的可以切換到 GDI+ 模式試試看。
+- 新增設定值`FontBold`，GUI和GDI+模式都會套用此設定值。
+
 ### 更新 2021-09-26
 - 修正英文模式下，按「;」與「'」時，送字轉換錯誤的情況。
 
@@ -27,6 +35,8 @@
 
 # 輸入畫面範例
 ![image](https://github.com/yurenli0217/Temp/blob/main/ExampleV2.png?raw=true)  
+支援 GDI+
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_GDIP.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
