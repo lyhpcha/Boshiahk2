@@ -35,7 +35,7 @@
 
 # 輸入畫面範例
 ![image](https://github.com/yurenli0217/Temp/blob/main/ExampleV2.png?raw=true)  
-支援 GDI+
+支援 GDI+  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Example_GDIP.png?raw=true)  
 
 # 下載方式如下圖  
