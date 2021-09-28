@@ -6,7 +6,7 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
-### 更新
+### 更新 2021-09-29
 - 增加一個設定值`EnSwitch2`，設定另一個中英切換的按鍵。
 - 加入 GDI+ 顯示設定，設定方面請參閱 INI 檔中的設定值說明。
 此版本中，我從 V1 版的 GDI+ 函式庫移植了少許文字相關的繪圖函式到此版本。  
