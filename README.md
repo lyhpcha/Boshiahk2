@@ -14,6 +14,7 @@
 - 針對字型設定，現在有兩個設定值 `FontName` 與 `FontNameExt`，使用的方式請參閱下方[說明](#fontname-與-fontnameext-使用範例)。
 - 表格檔也做了更新，非常感謝PTT蝦友 Fairry 的幫忙，無私整理了表格檔，請參閱下方[說明](#表格檔架構)。
 - 查注音念法的功能碼原為`[[`，但是會有衝突，所以功能碼改成`'[` 
+- 加字加詞如果字根碼和原本表內相容，會附加在最後面，而不再是覆蓋了。
 
 # 輸入畫面範例 - (PNG動畫格式)
 ![image](https://github.com/yurenli0217/Temp/blob/main/Example_All.png?raw=true)  
