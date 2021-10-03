@@ -1,0 +1,846 @@
+﻿' 、 ． ‧ 丶 ＂ ＇ ·
+'' “ 〝
+''' ” 〞 ＂
+, ，
+,' ‘ ’ ‵ ′ 、 丶 ＂ ＇ ，
+,'' “ ” 〝 〞 ’
+,, 「 ， 〈 ＜ ﹤ ‘ ’ 《 “ ”
+,,, 《 «
+,,v 」 ”
+,. ． ‧ 〉 ＞ ﹥ 。 ゝ 、 丶 ·
+,.. ¨ 》 » ∶
+,... ∵ ∴ ┆ ┇ ┊ ┋ ┄ ┅ ┈ ┉
+,..e Ё ё
+,..u ü
+,.e. ÷
+,.r. ≒ ≑
+,[ 「 ｛ 〔 【 〈 ﹙ ﹛ ﹝ ＜ ［ （ 〖
+,[[ 『 ﹃ 【 ︻ 《 ︽ «
+,[[v ︽ ﹃
+,[v ﹁ ︻ ︹ ︷ ︽ ︿ ˆ ∧
+,] 」 ｝ 〕 】 〉 ﹚ ﹜ ﹞ ＞ ］ ） 〗
+,]] 』 ﹄ 】 ︼ 》 ︾ »
+,]]v ︾ ﹄
+,]v ﹂ ︼ ︺ ︸ ︾ ﹀ ∨
+,a α ㄚ 丶 ． ∀ А а ɑ
+,a.m ㏂
+,aa 丶
+,ae 亼 釒
+,ah ㋿
+,ai ㄞ
+,air ✈
+,al ♢ ♦
+,all ∀
+,alp Α
+,am ㏂
+,an ㄢ
+,and ＆
+,ang ㄤ
+,ao ㄠ
+,apc ℀
+,aps ℁
+,au ㄠ ㍳
+,b ８ Ⅷ β ㄅ ＆ ⅷ ∞ ⑻ ⑧ Ь
+,b. ⒏
+,bah ฿
+,bar ㍴
+,bb ☯
+,bd ✁ ✂ ✃ ✄
+,be 冫 Б б Ё ё
+,bet Β
+,bi 仝 阝 ฿
+,bie 仝
+,bis ♗ ♝
+,bn ㆟
+,bob ¤
+,bq ㏃
+,br ≧ ≦
+,bs ☼ ☉ ☀
+,bu ü
+,bue ㋇
+,by ☯ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷
+,c ７ Ⅶ ㄘ ⅶ ⑺ ⑦
+,c. ⒎
+,cal ㎈
+,cap ∩
+,cc ㏄ ℂ
+,cd ㏅
+,ce 彑 ₠
+,cen ¢
+,ch ㄔ
+,che ✓ ✔ Ч ч
+,chi ㄔ ㄑ Χ χ
+,ci ㄑ ㆗ ¢ ℂ
+,cj ㆗
+,ckg ㏆
+,cl ℄
+,clu ♣ ♧
+,cm ㎝ ₡
+,cmm ㎠ ㎤
+,cmr ㎠
+,cms ㎤
+,co ㏇ 襾
+,co. ㏇
+,col ₡
+,com ☄
+,con ∮
+,cp ￠ ¢
+,cpb ⅞
+,cpk ㏆
+,cpo ℅
+,cpu ℆
+,cr € ₢
+,cro ✙ ✚ ✛ ✜ ✝ ✞ ✟ ✠ ☩
+,cru ₢
+,cs ˙
+,cue ㋆
+,cup ∪
+,cy ˙
+,d ㄉ δ
+,da ㍲
+,db 捌 ☼ ☉ ☀ ㏈
+,dc 柒 ↁ
+,de 壹 弌 壱 ㍽ Д д
+,del Δ
+,df 肆
+,dg 仟 【 】
+,dgg 】
+,dh ㍼
+,di ≯
+,dia ♢ ♦
+,dj 拾
+,dk 玖
+,dl 陸 陆 ㎗
+,do 零 ☼ ☉ ☀
+,dol ＄ ﹩ $
+,don ₫
+,dp 佰 ₯
+,dr 貳 弍 貮 贰 貮 ₫
+,dra ₯
+,ds 參 ☆ ★ 弎 ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✡
+,dse ☆ ★ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✡
+,dt ☯
+,dv 萬 万
+,dw 伍 ㍾
+,e １ Ⅰ ㄝ ㄜ ー – ε Σ ⅰ ㄧ － ㆒ ∃ ∈ ∑ ⑴ ① ─ ━ ￣ Э э
+,e. ⒈
+,e.e ﹊ ﹎
+,ea ā
+,ear ☷
+,eb. ⒙
+,ec. ⒘
+,ed ㆝
+,ede ₫
+,edn ㆝
+,ee ＿ 彐 艸 － ─ ˉ — ￣ ē
+,ee. ⒒
+,eee ﹉ ﹍ ☰ ┄ ┅ ┈ ┉
+,eer ☴
+,eeu ㋊
+,ef ▃ ▄ ▏ ▎ ▍ ▌ ▋ ▊ ▉ Ф ф
+,ef. ⒕
+,eh ㄝ ♥ ♡ ❤ ❥ ❦ ❧
+,ei ㄟ ˆ ∉ 乀 乁 屮 ī
+,ej ∓ 肀 屮
+,ek. ⒚
+,el ㄦ τ Л л
+,el. ⒗
+,em М м
+,en ㄣ Н н
+,enb ㆛
+,eng ㄥ
+,env ✉
+,eo ō
+,eo. ⒑
+,eou ㋉
+,ep ⅟ ∉
+,epb ⅛
+,epf ¼
+,epl ⅙
+,epr ½
+,eps ⅓ Ε
+,epw ⅕
+,eq 豸
+,er ㄦ π ㄫ ∏ Р р
+,er. ⒓
+,ere ☲
+,erl ㄫ
+,err ☶
+,eru ㋋
+,es ˙ ξ С с
+,es. ⒔
+,eta Η η
+,eu ū
+,eue ㋀
+,eur € ₠
+,ew. ⒖
+,ex 屮
+,ey ˙
+,ez →
+,ezz ↠
+,f ４ Ⅳ ㄈ ♀ ⅳ ㆕ ⑷ ④
+,f. ⒋
+,fa ㆘ ☟ 灬 ∷
+,fac ☹ ☺ ☻
+,fb ✙ ✚
+,fe ㆖ ☝
+,fg ✈
+,fgy ✈
+,fir ☲
+,fl 匸 ㄈ 匚
+,fm ㎙
+,fn □ ■ ◇ ◆ █ ▇ ▆ ▅ ▂ ＊
+,fpw ⅘
+,fqu ☽ ☾
+,fr ₣
+,fra ₣
+,fs ˋ
+,ft ✈
+,fty ✈
+,fu ∴
+,fue ㋃
+,fy ˋ ♢ ♦
+,g （ ㄍ γ ˆ 巜 ） 〔 〖 ɡ
+,ga ⒜ ㄍ
+,gae ㈮
+,gam Γ
+,gb ⑻ ㈧ ⒝ ㎇
+,gbb ㈾
+,gbi ㈾
+,gbz ㈽
+,gc ⑺ ㈦ ⒞
+,gco ㈴
+,gd ⒟
+,gdo ㈰
+,ge ⑴ ㈠ ⒠
+,geb ⒅
+,gec ⒄
+,gee ⑾
+,gef ⒁
+,gek ⒆
+,gel ⒃
+,geo ⑽
+,ger ⑿
+,ges ⒀
+,gew ⒂
+,gf ⑷ ㈣ ⒡
+,gfn ㈫
+,gg ） ⒢ 〕 〗
+,ggv ︶ ︼ ︺ ︸ ︾ ﹀ ∨
+,gh ⒣
+,ghz ㎓
+,gi ⒤ 爿 丬
+,gj ⑽ ㈩ ⒥
+,gja ㉀
+,gjb ⒅
+,gjc ⒄
+,gjd ㈿
+,gje ⑾
+,gjf ⒁
+,gjk ⒆
+,gjl ⒃
+,gjr ⑿ ㉀
+,gjs ⒀
+,gjw ⒂
+,gk ⑼ ㈨ ⒦
+,gl ⑹ ㈥ ⒧
+,gm ⒨
+,gmb ㈶
+,gmu ㈶
+,gn ⒩ ㆝
+,gnn ㆝
+,go ㈩ ⒪
+,goh ㈺
+,gp ⒫ 爿 丬
+,gpa ㎬ ㈹
+,gpe ㉃
+,gpm ㉂
+,gpt ㉁
+,gpx ㈹
+,gq ⒬
+,gr ⑵ ㈡ ⒭
+,grf ㈼
+,grj ⒇
+,gro ⒇
+,grr ㈷
+,grs ㈳ ㈷
+,grv ㈼
+,gry ㈳
+,gs ⑶ ㈢ ⒮
+,gsa ㈵
+,gsd ㈸
+,gsn ㈸ ㈻
+,gsy ㈵
+,gsz ㈻
+,gt ⒯
+,gtn ㈭
+,gts ㈱
+,gu ⒰
+,gue ㈪
+,gv ︵ ︻ ︹ ︷ ︽ ︿ ˆ ⒱
+,gw ⑸ ㈤ ⒲
+,gwn ㈬
+,gx ⒳
+,gxu ㈲
+,gy ⒴ ✈ ㏉
+,gye ㈯
+,gz ⒵
+,h ㄏ
+,ha ♥ ♡ ❤ ❥ ❦ ❧ ㏊ 忄
+,hat ∩
+,hea ☰ ♥ ♡ ❤ ❥ ❦ ❧
+,hh ♥ ♡ ❤ ❥ ❦ ❧
+,hi 忄
+,hj ☚ ☛ ☜ ☝ ☞ ☟
+,hp ☮ ㏋ ㄏ
+,hpa ㍱
+,hz ㎐
+,i ㄧ ∣ ︱ 丨 亅 ｜ │ ┃
+,ia Я я
+,ie Е е
+,iez ↦
+,ii 亅 ￤ 丨
+,il 讠
+,in ㏌
+,io Ё ё
+,iot Ι ι
+,ip ∤
+,ipx ∤
+,iu ㄩ Ю ю
+,ix ＊
+,iz ↓
+,izz ↡
+,j Ⅹ ㄐ ㄓ 十 ﹢ ⅹ ＋ ✙ ✚ ✛ ✜ ✝ ✞ ✟ ✠ ☩ ⑽ ⑩
+,j. ⒑
+,jb. ⒙
+,jc. ⒘
+,je ± Ⅺ ⅺ
+,je. ⒒
+,jeu ㋊
+,jf. ⒕
+,ji ㄐ
+,jis 〄
+,jj ＋ ＃ ﹟ ✙ ✚ ✛ ✜ ✝ ✞ ✟ ✠ ☩
+,jjj ＃ ﹟
+,jk. ⒚
+,jl. ⒗
+,jn 癶
+,jnd ✙ ✚ ✛ ✜ ✝ ✞ ✟ ✠ ☩
+,jp 癶 🇯🇵
+,jr Ⅻ ⅻ
+,jr. ⒓
+,jru ㋋
+,js. ⒔
+,jue ㋉
+,jw. ⒖
+,jx ＊ 扌
+,jz ↬
+,k ９ Ⅸ ㄎ κ ⅸ ⑼ ⑨
+,k. ⒐
+,k.k ㏍
+,ka 々 ㎄ К к
+,kaa 々
+,kap Κ κ
+,kb ㎅
+,kca ㎉
+,ke ₭
+,kg ㎏
+,kha Х х
+,khz ㎑
+,kin ♔ ♚
+,kip ₭
+,kk ㏍
+,kl ㎘
+,km ㎞ ㏎
+,kmm ㎢ ㎦
+,kmr ㎢
+,kms ㎦
+,kni ♘ ♞
+,ko ㏀
+,koh ㏀
+,kom ㏀
+,kpa ㎪
+,kr 🇰🇷
+,kt ㏏
+,kue ㋈
+,kv ㎸
+,kw ㎾
+,l ６ Ⅵ ㄌ λ ∠ ∟ 〆 〦 ⅵ ⑹ ⑥ ┕
+,l. ⒍
+,lak ☱
+,lam Λ
+,lb 疒
+,lc ℄
+,le ￡ ⊥ 丄 £ 亠
+,lir ₤
+,ll ∠
+,lm ㏐
+,ln ㏑
+,log ㏒
+,lov ♥ ♡ ❤ ❥ ❦ ❧
+,lp ㄏ
+,lr ≦ ≧ ₤ ≤ ≥
+,lue ㋅
+,lx ㏓
+,lz ↪
+,m ÷ ㄇ ♂ ヾ ゞ ＊ ﹏ ﹌ ﹋
+,ma ㎃
+,mb ㎆ ㏔
+,mg ㎎
+,mhz ㎒
+,mi 彳
+,mic µ
+,mil ㏕ ₥
+,ml ㎖
+,mm ㎜ ㎡
+,mmm ㎟ ㎣ ㎥
+,mmr ㎟
+,mms ㎣
+,mn ＊
+,mo ㏁
+,moh ㏁
+,mol ㏖
+,mom ㏁
+,moo ☽ ☾
+,mou ☶
+,mp ₥ 彡
+,mpa ㎫
+,mps ㎧ ㎨
+,mr ㎡
+,ms ㎥ ㎳
+,mu μ µ Μ
+,mua ㎂
+,mue μ ㎛ µ
+,muf ㎌
+,mug ㎍
+,mul ㎕
+,mum ㎛
+,mus ㎲
+,muv ㎶
+,muw ㎼
+,mv ︴ ㎷ ㎹
+,mw ㎽ ㎿
+,n ＼ ㄋ ∩ η И и ⌒
+,n.. ǜ
+,na 々 ㎁ à
+,naa 々
+,nai ₦
+,ne è ê
+,nf ㎋
+,ng ㄫ
+,ni ì
+,nm ㎚
+,nn 〝
+,no № ò
+,no. №
+,noe №
+,nr ₦
+,ns ㎱
+,nu ₪ Ν ν ù
+,nv ㎵
+,nw ㎻
+,ny 冖 宀 冂 勹
+,nz ↘ ↯
+,o ０ ● ○ ㄛ Ω ω ° 〇 ο 。 О о
+,o. ⊙
+,oa ＠ ﹫ Ⓐ ⓐ
+,oa. ㋐
+,oae ㊎
+,ob ⑧ ㊇ ❽ ➇ ➑ Ⓑ ⓑ ∵
+,obb ☯ ㊮
+,obi ㊮
+,obn ☹
+,obu ☺ ☻
+,obz ㊭
+,oc ⑦ ㊆ ❼ ➆ ➐ ℃ Ⓒ ⓒ ©
+,oci ↂ ㊥
+,ocj ↂ ㊥
+,oco ㊔
+,od Ⓓ ⓓ
+,odo ㊐
+,odu ☯
+,oe ① ㊀ ❶ ➀ ➊ Θ Ⓔ ⓔ ∵
+,oe. ㋓
+,oeb ⑱
+,oec ⑰
+,oee ⑪
+,oef ⑭
+,oek ⑲ ㉿
+,oel ⑯
+,oeo ⑩ ㊉ ❿ ➉ ➓
+,oep ㊞
+,oer ⑫
+,oes ⑬
+,oew ⑮
+,oez ㊣
+,of ④ ㊃ ❹ ➃ ➍ ℉ Ⓕ ⓕ ∝
+,ofa ㊦
+,ofd ㊩
+,ofe ㊤
+,ofn ㊋
+,ofv ㊩
+,og Ⓖ ⓖ
+,ogx ㊛
+,oh Ⓗ ⓗ
+,oha ㋩
+,ohe ㋬
+,ohh ㊙
+,ohi ㋪
+,oho ㋭
+,ohp ㊙
+,ohu ㋫
+,oi Ⓘ ⓘ ↀ
+,oi. ㋑
+,oib ㊠
+,oio ↂ
+,oit ㊠
+,oj ⑩ ㊉ ❿ ➉ ➓ ♀ ⊕ Ⓙ ⓙ
+,ojb ⑱
+,ojc ⑰
+,ojd ㊯
+,oje ⑪
+,ojf ⑭
+,oji 〄
+,ojk ⑲
+,ojl ⑯
+,ojr ⑫
+,ojs ⑬
+,ojw ⑮
+,ok ⑨ ㊈ ❾ ➈ ➒ Ⓚ ⓚ ㉿
+,oka ㋕
+,oke ㉿ ㋘
+,oki ㋖
+,oko ㋙
+,oku ㋗
+,ol ⑥ ㊅ ❻ ➅ ➏ Ⓛ ⓛ
+,oln ㊜
+,olp ㊰
+,olu ㊰
+,olw ㊜
+,olx ㊰
+,om Ⓜ ⓜ
+,oma ㋮
+,omb ㊖
+,ome ㋱
+,omg Ω
+,omi ㋯ Ο ο
+,omo ㋲
+,omu ㊖ ㋰
+,on Ⓝ ⓝ
+,ona ㋤
+,one ㊢ ㋧
+,oni ㋥
+,onk ㊢
+,ono ㋨
+,onr ㊪
+,ons ㊪
+,onu ㋦
+,oo ⓪ 囗 □ ∞ ◎ ■ Ⓞ ⓞ
+,oo. ㋔
+,ooa ☹
+,ood ☹
+,ooi ↂ
+,op φ Ⓟ ⓟ ∅
+,opo ％ ﹪ ‰
+,opp ㊝
+,opt ㊝ ㊡
+,oq Ⓠ
+,oqd ㊚
+,or ② ㊁ ❷ ➁ ➋ Ⓡ ⓡ ®
+,ora ㋶
+,ore ㋹
+,orf ㊬
+,ori 〶 ㋷
+,orj ⑳
+,oro ⑳ ㋺
+,orr ㊗
+,ors ㊓ ㊗
+,oru ㋸
+,orv ㊬
+,ory ㊓
+,os ③ ㊂ ❸ ➂ ➌ Ⓢ ⓢ ☮ ☄
+,os. ☯
+,osa ☯ ㊕ ㋚
+,osb ☯
+,osd ㊘
+,ose ㋝
+,osi ㋛
+,osn ㊘ ㊫
+,oso ㋞
+,osu ㋜
+,osy ㊕
+,osz ㊫
+,ot Ⓣ ⓣ
+,ota ㋟
+,ote ㋢
+,oti ㋠
+,otn ㊍
+,oto ㋣
+,ots ㊑
+,otu ㋡
+,ou ㄡ Ⓤ ⓤ ☹
+,ou. ㋒
+,oue ㊊
+,ov Ⓥ ⓥ ㍵
+,ow ⑤ ㊄ ❺ ➄ ➎ Ⓦ ⓦ
+,owa ㊟ ㋻
+,owe ㋽
+,owi ㋼
+,owk ㊟
+,own ㊌
+,owo ㋾
+,ox Ⓧ ⓧ
+,oxi ㊧
+,oxo ㊨
+,oxu ㊒
+,oxw ㊜
+,oy Ⓨ ⓨ
+,oya ㋳
+,oye ㊏
+,oyo ㋵
+,oyu ㋴
+,oyv ㊏
+,oyy ☯
+,oz Ⓩ ⓩ
+,p ／ ㄆ ∕ ╱ 丿 ＇ ㄗ
+,p.. ǘ
+,p.m ㏘
+,pa ㎀ ㎩ ㍻ á
+,paa ㎀
+,paw ♙ ♟
+,pc ￠ ㍶
+,pe ₧ П п é
+,pea ☮
+,pes ₧
+,pf ㎊ ☝ ☟
+,ph ㏗
+,phi Φ φ
+,pi π 卩 亻 ㄗ Π í
+,pm ㏘
+,pn ń
+,po φ ó
+,pos 〒 〶 〠
+,pou £
+,pp 〞 〃 ∥ ″ 丿
+,ppm ㏙
+,pr ≠ ㏚
+,pro ∏
+,ps ㎰
+,psi Ψ ψ
+,pts ₧
+,pu ψ ú
+,pv ㎴
+,pw ㎺
+,px 攵 夂 夊 ☚ ☛ ☜ ☞
+,py ✉
+,pz ↙
+,q ㄑ θ ╭ ╮ ╰ ╯ ╪ ≠
+,qi ㆙
+,qp 犭
+,qt ♠
+,que ♕ ♛
+,qx ≠ 犭
+,r ２ Ⅱ ㄖ ㄦ ＝ ﹦ 〢 ═ ⅱ ㆓ ⑵ ②
+,r. ⒉
+,rad ㎭ ㎮ ㎯
+,rat ∶
+,re 卝 ＝ 〓 Э
+,ree ☱
+,rer ☵
+,res ₨
+,rho Ρ ρ
+,ri ╡ 〒 卝 刂 ‖
+,rii 〒
+,riv 〠
+,rj 卄 艹
+,rj. ⒛
+,ro. ⒛
+,roo ♖ ♜
+,rp ≠ 〃 ″
+,rps ⅔
+,rpw ⅖
+,rpx ≠
+,rre ☳
+,rrr ☷
+,rs ˊ ₨ 礻 ≈
+,ru 殳
+,rue ㋁
+,rup ₨
+,ry ˊ
+,s ３ Ⅲ ㄙ ～ ＆ ≡ ﹠ ⅲ ㆔ ∼ ⑶ ③ ∫ ∽
+,s. ⒊
+,sa ヾ ゞ 巛
+,sci ✁ ✂ ✃ ✄
+,se ≡
+,set ∅
+,sh ㄕ ♥ ♡ ❤ ❥ ❦ ❧
+,sha Ш ш
+,shc щ
+,she ₪ Щ
+,shi ㄕ ㄒ
+,si ＄ ﹩ 〣 巛 $ ≮
+,sig Σ σ Ъ ъ
+,sii Й й
+,sj 卅
+,sm Σ
+,sn △ ▽ ▲ ▼ ⊿ Δ ◥ ◣ ◤ ◢ ∆
+,so ♂ ∮
+,spa ♠ ♤
+,spb ⅜
+,spf ¾
+,spr ♨
+,spw ⅗
+,sr ♣ ♧ ㏛ ≅ ≌
+,ss § ˇ ≈ ∥
+,ssi Ь ь
+,st ♤
+,sta ★ ☆ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✡
+,sue ㋂
+,sum ∑
+,sun ☼ ☉ ☀
+,sv ㏜
+,sy ˇ
+,sz ↝
+,t ㄊ ┬
+,taa ㍿
+,tar ㍿
+,tau Τ
+,te Т т
+,tel ℡ ☎ ☏ ✆
+,th θ
+,the Θ
+,thu ☳
+,thz ㎔
+,ti 丅 ㆜
+,tm ₮
+,to √
+,tpp ₮
+,tr ♣ ♧
+,ts ㄘ
+,tse Ц ц
+,tss ㈱
+,tug ₮
+,ty ✈
+,tz ㄗ ↧
+,u ㄨ ㄩ ∪ μ υ µ У у
+,ua 厶 ㎂
+,uab ☹ ☺ ☻
+,uao ☹ ☺ ☻
+,ue ☽ ☾
+,uf ㎌
+,ug ㎍
+,ui ☎ ☏ ✆ ㄩ 凵
+,ul ㎕ ☽ ☾
+,um ㎛
+,und ✡
+,ups Υ υ
+,uq 豸
+,us ζ ㎲
+,usd ＄
+,uv ㎶
+,uw ㎼
+,uz ↯
+,v 」 ˇ ∠ ν ✓ ✔ ∧ ∨ ” √
+,v.. ǚ
+,v[ ﹁
+,v[[ ︽
+,v] ﹂
+,v]] ︾
+,va 衤 ǎ
+,vbd ∞
+,ve √ ≤ В в ě
+,vg ︵
+,vgg ︶
+,vi Ψ ≮ ≯ ǐ
+,vn ň
+,vo ǒ
+,vp 髟
+,vr ≦ ≧ ≤ ≥
+,vu ǔ
+,vv ﹁ ﹂ 丶
+,w ５ Ⅴ ㄨ ω ♀ ⅴ ⑸ ⑤
+,w. ⒌
+,wa 幺
+,wat ☵
+,wb ㏝
+,wd ☄
+,we ￦ 氵
+,win ☴
+,wn 廴 辶
+,wo ♀
+,won ₩ ￦
+,wp ♨
+,wpb ⅝
+,wpl ⅚
+,wr ₩
+,wu ㄨ
+,wue ㋄
+,x ㄒ × 〆 ╳ 〤 χ ㄨ ✕ ✖ ✗ ✘ Ⅹ
+,xf ※
+,xi ﹡ ＊ ☚ ☜ Ξ
+,xj ＊
+,xn 飠
+,xo ☛ ☞
+,xs ✝ ✞ ✟
+,xx × ✕ ✖ ✗ ✘ ∃ ∤
+,xz ↛
+,y ㄧ
+,ya ㆞
+,yal ㆞
+,ye ±
+,yen ￥ ¥
+,yer Ы ы
+,yi ㄧ
+,yin ☯
+,yr ￥ ¥
+,ys ✝ ✞ ✟
+,yu ㄩ
+,yy ☯
+,z ㄗ ↓ ↑ → ← ↘ ↙ ↗ ↖
+,ze ← З з
+,zed ☺ ☻
+,zei ↤
+,zet Ζ ζ
+,zez ↔ ↢ ↣
+,zgn ☺ ☻
+,zh ㄓ
+,zhe Ж ж
+,zhi ㄓ
+,zi ↑
+,zie ↥
+,ziz ↨
+,zj ↫
+,zkj 卍
+,zl ㆚ ↥ ↩ 虍
+,zn ↖
+,zo ♂
+,zp ↗
+,zs ↜
+,zsz ↭
+,zt ✈
+,zty ✈
+,zu ☺ ☻
+,zwz ↭
+,zx ↚
+,zxz ↮
+,zz 卐 ㆚ ↯
+,zze ↞
+,zzi ↟
+,zzj 卍
+. 。
+., ；
+.. ： ‥ ＋ － × ÷ ＝ 》 ¨ ━ ∶
+... … ∵ ∴
+.mp 彡
+.oq ⓠ
+.v ・
+[ 「 （ ﹁ ﹃ 【 ︻ ︵ 〈
+[[ 『 ﹃ 【 ︻ 《 ︽ «
+[[v ﹃ ︻ ︽
+[v （ ﹁ ︻ ︹ ︷ ︽ ︿ ︵ ∧
+[vv ﹁
+] 」 ） ﹂ ﹄ 】 ︼ ︶ 〉
+]] 』 ﹄ 】 ︼ 》 ︾ »
+]]v ﹄ ︼ ︾
+]v ） ﹂ ︼ ︺ ︸ ︾ ﹀ ︶ ∨
+]vv ﹂

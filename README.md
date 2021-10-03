@@ -6,6 +6,15 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-10-03
+- 修正注音模式下取消後，GDI+ 文字未更新的問題。
+- 在全形模式下，「:」符號無法正常輸出成「：」。
+- 修正數字1左邊的「~」符號，無法正常輸出。
+- 介面全部用 GDI+ 來繪製，不再使用 GUI 模式，因此設定檔已全面更新。
+- 針對字型設定，現在有兩個設定值 `FontName` 與 `FontNameExt`，使用的方式請參閱下方說明。
+- 表格檔也做了更新，非常感謝PTT蝦友 Fairry 的幫忙，無私整理了表格檔，請參閱下方說明。
+- 查注音念法的功能碼原為`[[`，但是會有衝突，所以功能碼改成`'[` 
+
 ### 更新 2021-09-29
 - 增加一個設定值`EnSwitch2`，設定另一個中英切換的按鍵。
 - 加入 GDI+ 顯示設定，設定方面請參閱 INI 檔中的設定值說明。
@@ -34,10 +43,8 @@
 
 ### 2021-09-15 初版發佈
 
-# 輸入畫面範例
-![image](https://github.com/yurenli0217/Temp/blob/main/ExampleV2.png?raw=true)  
-支援 GDI+  
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_GDIP.png?raw=true)  
+# 輸入畫面範例 - (PNG動畫格式)
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_All.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
@@ -61,15 +68,34 @@
 - Ctrl-Alt-Shift-T 查詢焦點視窗的視窗標題。
 - 對輸入介面按右鍵，可以結束程式。
 
+## 表格檔架構
+程式內含的表格檔由 PTT Liu板蝦友 `Fairry` 無私整理，他將表格檔重新規劃，檔案說明如下:
+- _Common.txt: 通用符號
+- _Phonetic.txt: 注音對應表
+- _User.txt: 使用者自訂字詞
+- Liu.txt: 包含了Unicode擴展區的文字。
+- LiuJap.txt: 日文專用表格
+- LiuT2S.txt: 常用字打繁出簡表格
+###本程式的表格檔內容含擴展A、B區的文字，推薦使用「全字庫正楷體」，此字型可支援到 Unicode 第2字面。
+
 # 查詢功能
 - 萬用碼查碼: 先輸入前導碼`[`，再輸入字根，不確定字根用`.`來代表。如`[A..P`，會顯示字碼首碼為`A`、尾碼為`P`、以及字根數為「四碼」的選字。
-- 查詢注音: 先輸入前導碼`[[`，再輸入字根，選字後會顯示注音念法。
+- 查詢注音: 先輸入前導碼`'[`，再輸入字根，選字後會顯示注音念法。
 
 ## 修改 Boshiahk2.ini 簡易說明
 - 設定檔中已有針對各項設定值簡述用法。
 - 設定檔分成 `[Settings]`、`[Table]`、`[CmdKey]` 三個區段，請留意不要刪除。
 - 使用程式前可先詳細參閱 INI 檔內說明。
 ### ※注意※ 如果 boshiahk2.ini 文字編碼格式不是 UTF-16LE，程式將無法正常讀取設定，用記事本開啟另存成 UTF16-LE 即可。這是 Windows 本身的限制。
+
+## FontName 與 FontNameExt 使用範例
+使用的方式用全字庫來說明，全字庫正楷體中有兩個檔案名稱:  
+`TW-Kai-98_1.ttf`  
+`TW-Kai-Ext-B-98_1.ttf`  
+其中`TW-Kai-Ext-B-98_1.ttf`儲存的文字是在Unicode `0x20000` 開始的文字，如果也想要使用這個字型檔，可以用以下設定值:  
+`FontName = TW-Kai-98_1.ttf`  
+`FontNameExt = TW-Kai-Ext-B-98_1.ttf`  
+這樣在 Unicodde 0x20000 以後的文字就會用 TW-Kai-Ext-B-98_1.ttf 來顯示了。
 
 ## Config\ClipAuto.txt
 - 檔案內容為視窗的 Class Name 清單，或是視窗標題，程式執行時會讀取該檔。
