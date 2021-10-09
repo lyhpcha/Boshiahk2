@@ -24,7 +24,7 @@
 - 加字加詞如果字根碼和原本表內相容，會附加在最後面，而不再是覆蓋了。
 
 # 輸入畫面範例 - (PNG動畫格式)
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_All.png?raw=true)  
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_All2.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
