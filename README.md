@@ -6,6 +6,11 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-10-11
+- 這次的釋出版本有修改了操作功能，我將功能碼都改成了[快速鍵](#熱鍵功能)。
+- 加入了同音字功能，跟查注音整合在一起了，請參閱下方[說明](#查詢功能)。
+- 小問題修正。
+
 ### 更新 2021-10-06
 - 修正 EnSwitch2 不設定時程式錯誤的問題
 - `_common.txt`表格檔補上驚嘆號和問號的字根碼。
@@ -24,7 +29,7 @@
 - 加字加詞如果字根碼和原本表內相容，會附加在最後面，而不再是覆蓋了。
 
 # 輸入畫面範例 - (PNG動畫格式)
-![image](https://github.com/yurenli0217/Temp/blob/main/Example_All2.png?raw=true)  
+![image](https://github.com/yurenli0217/Temp/blob/main/Example_All3.png?raw=true)  
 
 # 下載方式如下圖  
 ![image](https://github.com/yurenli0217/Temp/blob/main/Download.png?raw=true)
@@ -35,20 +40,23 @@
 - 程式執行時，會載入 `Config\LastPosition.ini` 儲存的座標位置，輸入介面有變更位置時會更新此檔案。刪除此檔案，執行時輸入介面會以預設值顯示在螢幕左下角。
 - 若是有多個螢幕時，輸入介面會自動移到焦點視窗所在的螢幕，介面會顯示在一樣的相對位置。
 
-## 輸入法介面開啟時，熱鍵與對應的功能
-- Ctrl-Space 輸入法開啟/關閉。
-- Ctrl-Alt-R 重新載入程式。
-- Ctrl-Alt-C 查看上一次送字之拆碼
-- Ctrl-Alt-G 重複上一次送出的字。
-- Ctrl-Alt-P 進入注音模式。
-- Shift-Space 半形/全形 輸入。
-- Shift+,. 在多頁選字時，切換上下頁。
-- Pgup/Pgdn 在多頁選字時，切換上下頁。
-- Ctrl-Alt-Shift-C 查詢焦點視窗的 Class Name。
-- Ctrl-Alt-Shift-T 查詢焦點視窗的視窗標題。
-- 對輸入介面按右鍵，可以結束程式。
+## 熱鍵功能 (2021-10-11 更新)
+除了輸入法的開啟/關閉，其它的熱鍵皆在輸入法介面開啟時才會作用。
+- Ctrl-Space: 輸入法開啟/關閉。
+- Shift-Space: 半形/全形 輸入。
+- Shift+,. 或 Pgup/Pgdn: 在多頁選字時，切換上下頁。
+- Ctrl-Alt-B: 開啟自訂字詞檔。
+- Ctrl-Alt-C: 查看上一次送字之拆碼。
+- Ctrl-Alt-G: 重複上一次送出的字。
+- Ctrl-Alt-I: 開啟 INI 檔。
+- Ctrl-Alt-O: 輸入介面位置重設。
+- Ctrl-Alt-P: 進入注音模式。
+- Ctrl-Alt-R: 重新載入程式。
+- Ctrl-Alt-X: 結束程式。另外對輸入介面按滑鼠右鍵也可以結束程式。
+- Ctrl-Alt-Shift-C: 查詢焦點視窗的 Class Name。
+- Ctrl-Alt-Shift-T: 查詢焦點視窗的視窗標題。
 
-## 表格檔架構
+## 表格檔架構(新式表格檔)
 程式內含的表格檔由 PTT Liu板蝦友 `Fairry` 無私整理，他將表格檔重新規劃，檔案說明如下:
 - _Common.txt: 通用符號
 - _Phonetic.txt: 注音對應表
@@ -58,13 +66,13 @@
 - LiuT2S.txt: 常用字打繁出簡表格
 ###本程式的表格檔內容含擴展A、B區的文字，推薦使用「全字庫正楷體」，此字型可支援到 Unicode 第2字面。
 
-# 查詢功能
+# 查詢功能 (2021-10-11 更新)
 - 萬用碼查碼: 先輸入前導碼`[`，再輸入字根，不確定字根用`.`來代表。如`[A..P`，會顯示字碼首碼為`A`、尾碼為`P`、以及字根數為「四碼」的選字。
-- 查詢注音: 先輸入前導碼`'[`，再輸入字根，選字後會顯示注音念法。
+- 查詢注音與同音字: 先輸入字根碼，出現選字後，用「Ctrl + 選字編號」選擇要查的注音，會出現該字的所有注音，此時可再進一步選擇注音再查同音字。
 
 ## 修改 Boshiahk2.ini 簡易說明
 - 設定檔中已有針對各項設定值簡述用法。
-- 設定檔分成 `[Settings]`、`[Table]`、`[CmdKey]` 三個區段，請留意不要刪除。
+- 設定檔分成 `[Settings]`、`[Table]` 兩個區段，請留意不要刪除。
 - 使用程式前可先詳細參閱 INI 檔內說明。
 ### ※注意※ 如果 boshiahk2.ini 文字編碼格式不是 UTF-16LE，程式將無法正常讀取設定，用記事本開啟另存成 UTF16-LE 即可。這是 Windows 本身的限制。
 
