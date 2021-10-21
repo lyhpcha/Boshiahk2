@@ -6,6 +6,9 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-10-21
+- 加入設定值`NumpadFullWidth`，可以設定全形模式下，數字鍵盤的輸出模式。
+
 ### 更新 2021-10-14
 - 修正無法複製視窗標題文字與ClassName的問題
 - 修正開啟大寫模式注音輸入出錯的問題
