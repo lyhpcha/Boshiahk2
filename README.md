@@ -72,10 +72,10 @@
 使用的方式用全字庫來說明，全字庫正楷體中有兩個檔案名稱:  
 `TW-Kai-98_1.ttf`  
 `TW-Kai-Ext-B-98_1.ttf`  
-其中`TW-Kai-Ext-B-98_1.ttf`儲存的文字是在Unicode `0x20000` 開始的文字，如果也想要使用這個字型檔，可以用以下設定值:  
-`FontName = TW-Kai-98_1.ttf`  
-`FontNameExt = TW-Kai-Ext-B-98_1.ttf`  
-這樣在 Unicodde 0x20000 以後的文字就會用 TW-Kai-Ext-B-98_1.ttf 來顯示了。
+其中`TW-Kai-Ext-B-98_1.ttf`儲存的文字是在Unicode `0x20000` 開始的文字，首先將字型安裝到系統，然後再使用以下設定值
+`FontName = 全字庫正楷體`  
+`FontNameExt =全字庫正楷體 Ext-B`  
+這樣在 Unicodde 0x20000 以後的文字就使用擴展字集區的字型了。
 
 ## Config\ClipAuto.txt
 - 檔案內容為視窗的 Class Name 清單，或是視窗標題，程式執行時會讀取該檔。
