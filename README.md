@@ -6,6 +6,10 @@
 
 一些說明可參考前一版本連結:[https://github.com/yurenli0217/BoshiahkGV](https://github.com/yurenli0217/BoshiahkGV)
 
+### 更新 2021-10-29
+- 針對自動修正系統輸入法為英數模式的功能，做了修改，主要是嘗試避免偵測不到系統輸入法  
+狀態時會跳出錯誤訊息。
+
 ### 更新 2021-10-21
 - 加入設定值`NumpadFullWidth`，可以設定全形模式下，數字鍵盤的輸出模式。
 
